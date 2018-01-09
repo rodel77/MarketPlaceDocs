@@ -2,8 +2,38 @@
 MarketPlaceDocs
 ===============
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Commands:
+Contents
+========
 
-   commands/purge
+Commands
+~~~~~~~~
+
+.. toctree::
+	:maxdepth: 2
+	:titlesonly:
+
+	commands/index
+
+Misc
+~~~~
+
+.. toctree::
+	:maxdepth: 2
+	:titlesonly:
+
+	misc/index
+
+
+.. Misc
+.. ~~~~
+
+.. .. toctree::
+..    :maxdepth: 2
+..    :caption: Commands:
+
+..    commands/purge
+..  .. toctree::
+..    :maxdepth: 2
+..    :caption: Misc:
+
+..    misc/webhooks

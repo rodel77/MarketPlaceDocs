@@ -7,10 +7,10 @@ With purge commands, you can clear unused data, remove all listings of a player 
 Command Syntaxis
 ================
 
-/market purge <argument-name> [argument-value]
+``/market purge <argument-name> [argument-value]``
 
 Arguments & Examples (Read all before executing any purge command)
-=========
+==================================================================
 
 These arguments will remove ANY listing published 1 year ago
 

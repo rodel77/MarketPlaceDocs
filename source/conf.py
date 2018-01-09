@@ -47,7 +47,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'MarketPlaceDocs'
-copyright = '2017, rodel77'
+copyright = '2017-2018, rodel77'
 author = 'rodel77'
 
 # The version info for the project you're documenting, acts as replacement for
