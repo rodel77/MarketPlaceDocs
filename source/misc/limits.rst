@@ -27,11 +27,11 @@ You can choose between two options on ``limits.multiple`` node in config file:
 
 ``stack`` (Selected by default) **Sum all the permissions you have**
 
-``priority`` **Find the first permission on the list that you own**
+``priority`` **Find the permission with more limits**
 
 Database-based limits
 ---------------------
-To enabled this mode you have to edit ``limits.mode`` node in your config to ``db`` instead or ``permissions``
+To enabled this mode you have to edit ``limits.mode`` node in your config to ``db`` instead of ``permissions``
 
 This mode can be used by commands:
 
