@@ -37,3 +37,4 @@ Misc
 ..    :caption: Misc:
 
 ..    misc/webhooks
+..    misc/limits
