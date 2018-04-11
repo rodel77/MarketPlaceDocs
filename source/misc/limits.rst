@@ -43,3 +43,9 @@ This mode can be used by commands:
 What method choose?
 -------------------
 This depends on what you wanna do, if you want to grant limits to a player for donating just use the permission-based system though if you want to grant different limits for each player for example buying in ingame store you should use the database-based system since is more practical for this kind of implementations
+
+Default limits & Unlimited
+--------------------------
+
+Use ``limits.default`` node in config to define the default limit that a player have
+And also you can use -1 limits to make it unlimited (Works in both systems and default in config)
