@@ -1,0 +1,12 @@
+=========================
+categories.redstone.items
+=========================
+
+No help available
+
+Type: String list
+~~~~~~~~~~~~~~~~~
+Default: 
+~~~~~~~~~
+
+- REDSTONE- DIODE- REDSTONE_COMPARATOR- REDSTONE_TORCH_ON- DISPENSER- DROPPER- HOPPER- LEVER- REDSTONE_LAMP_OFF- TRIPWIRE_HOOK- NOTE_BLOCK- PISTON_STICKY_BASE- PISTON_BASE- TNT- DAYLIGHT_DETECTOR- STONE_BUTTON- WOOD_BUTTON- TRAP_DOOR- IRON_TRAPDOOR- STONE_PLATE- WOOD_PLATE- GOLD_PLATE- IRON_PLATE
