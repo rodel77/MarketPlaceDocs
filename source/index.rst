@@ -5,6 +5,15 @@ MarketPlaceDocs
 Contents
 ========
 
+Configuration
+~~~~~~~~~~~~~
+
+.. toctree::
+	:maxdepth: 2
+	:titlesonly:
+
+	config/index
+
 Commands
 ~~~~~~~~
 
