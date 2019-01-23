@@ -6,5 +6,5 @@ Depending on the context on the server, sometime is not useful to have a simple 
 
 Type: Boolean (true or false)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Default: **true**
-~~~~~~~~~~~~~~~~~
+Default: **false**
+~~~~~~~~~~~~~~~~~~
