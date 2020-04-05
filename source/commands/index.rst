@@ -13,7 +13,7 @@ Information about the commands
 +-----------------------------------------------------------+--------------------------+------------------+--------------------------------------------------------------------------+
 | /mp my/self                                               | market.my                | Users            | Open your "dashboard"                                                    |
 +-----------------------------------------------------------+--------------------------+------------------+--------------------------------------------------------------------------+
-| /mp listings/inspect <playeruuid/playername>              | market.inspect           | Admins           | Open the "dashboard" of another player (You can delete items)            |
+| /mp listings/inspect <playeruuid/playername>              | market.listings          | Admins           | Open the "dashboard" of another player (You can delete items)            |
 +-----------------------------------------------------------+--------------------------+------------------+--------------------------------------------------------------------------+
 | /mp purge <parameters>                                    | market.purge             | Admins           | Purge listings with specific parameters                                  |
 +-----------------------------------------------------------+--------------------------+------------------+--------------------------------------------------------------------------+
