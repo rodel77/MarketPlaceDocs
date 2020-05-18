@@ -4,6 +4,8 @@ SNBT -> NBT Migration
 
 MarketPlace was using SNBT (String NBT) to save item data but since 3.0.0 we are going to use Binary NBT, this requires a migration process.
 
+This might seem useless but otherwise, there's a huge chance that your whole MP catalog will not work in future versions.
+
 Why the migration
 =================
 
@@ -39,8 +41,8 @@ Then you can run ``/mp migrate-nbt``, this will disable the MarketPlace for obvi
 
 After the migration is completed only people with ``marketplace.post-migration`` permission will be able to use the MarketPlace, this process allows you and other OPs to check that everything is okay (it should be if all of your items where created in the same version as you run this command).
 
-To leave everything like before just use ``/mp migrate-nbt`` again or restart the server, now all the users with access to the marketplace can enjoy it again.
+To leave everything just like before use ``/mp migrate-nbt`` again, now all the users with access to the marketplace can enjoy it again.
 
-**I am not resposible for data-loss in case you haven't made a backup and checked everything worked fine**
+**I am not resposible for data-loss in case you haven't made a backup**
 
-You can report any other issue to me.
+You can report any other issue to me, please grant as much info as possible.
