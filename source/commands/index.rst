@@ -5,25 +5,35 @@ Commands
 Information about the commands
 
 +-----------------------------------------------------------+--------------------------+------------------+--------------------------------------------------------------------------+
-| Command                                                   | Permission               | Recommended Rank | Function                                                                 |
+| Command                                                   | Permission               | Recommended Rank | Description                                                              |
 +-----------------------------------------------------------+--------------------------+------------------+--------------------------------------------------------------------------+
-| /mp publish/sell <price>                                  | market.publish           | Users            | Sell the item in your hand                                               |
+| /mp publish/sell <price>                                  | market.publish           | Users            | Sell the item in your hand.                                              |
 +-----------------------------------------------------------+--------------------------+------------------+--------------------------------------------------------------------------+
-| /mp search                                                | market.search            | Users            | Open the search menu                                                     |
+| /mp search                                                | market.search            | Users            | Open the search menu.                                                    |
 +-----------------------------------------------------------+--------------------------+------------------+--------------------------------------------------------------------------+
-| /mp my/self                                               | market.my                | Users            | Open your "dashboard"                                                    |
+| /mp my/self                                               | market.my                | Users            | Open your "dashboard".                                                   |
 +-----------------------------------------------------------+--------------------------+------------------+--------------------------------------------------------------------------+
-| /mp listings/inspect <playeruuid/playername>              | market.listings          | Admins           | Open the "dashboard" of another player (You can delete items)            |
+| /mp listings/inspect <playeruuid/playername>              | market.listings          | Admins           | Open the "dashboard" of another player (You can delete items).           |
 +-----------------------------------------------------------+--------------------------+------------------+--------------------------------------------------------------------------+
-| /mp purge <parameters>                                    | market.purge             | Admins           | Purge listings with specific parameters                                  |
+| /mp purge <parameters>                                    | market.purge             | Admins           | Purge listings with specific parameters.                                 |
 +-----------------------------------------------------------+--------------------------+------------------+--------------------------------------------------------------------------+
-| /mp reload                                                | market.reload            | Admins           | Reload the plugin configuration                                          |
+| /mp reload                                                | market.reload            | Admins           | Reload the plugin configuration.                                         |
 +-----------------------------------------------------------+--------------------------+------------------+--------------------------------------------------------------------------+
-| /mp limits <get|set|increment|decrement> <player> [slots] | market.limits            | Admins           | Manage the limits of players                                             |
+| /mp limits <get|set|increment|decrement> <player> [slots] | market.limits            | Admins           | Manage the limits of players.                                            |
 +-----------------------------------------------------------+--------------------------+------------------+--------------------------------------------------------------------------+
-| /mp select <parameters>                                   | market.select            | Admins           | Get a plain chat message of specific listings (Same parameters as purge) |
+| /mp select <parameters>                                   | market.select            | Admins           | Get a plain chat message of specific listings (Same parameters as purge).|
 +-----------------------------------------------------------+--------------------------+------------------+--------------------------------------------------------------------------+
-| /mp help                                                  | (No permission required) | Users            | Open the help menu                                                       |
+| /mp help                                                  | (No permission required) | Users            | Open the help menu.                                                      |
++-----------------------------------------------------------+--------------------------+------------------+--------------------------------------------------------------------------+
+| /mp cancel/borrow <options>                               | market.cancel            | Admins           | Cancel items, for now just --all enabled (Experimental/Migration).       |
++-----------------------------------------------------------+--------------------------+------------------+--------------------------------------------------------------------------+
+| /mp setpin/webpin <new-pin>                               | market.setpin            | Users            | Sets the pin of your webclient account. WebMarket should be enabled.     |
++-----------------------------------------------------------+--------------------------+------------------+--------------------------------------------------------------------------+
+| /mp wallet/webmoney <deposit/widthdraw/check> [player/$]  | market.wallet            | Users            | Manage the money in your webclient account. WebMarket should be enabled. |
++-----------------------------------------------------------+--------------------------+------------------+--------------------------------------------------------------------------+
+| /mp migrate                                               | market.migrate           | Admins           | Used to migrate from other plugins similar to MP. (Requests Open).       |
++-----------------------------------------------------------+--------------------------+------------------+--------------------------------------------------------------------------+
+| /mp migrate-nbt                                           | market.migrate-nbt       | Admins           | Used to migrate from SNBT to NBT (Update 3.0.0).                         |
 +-----------------------------------------------------------+--------------------------+------------------+--------------------------------------------------------------------------+
 
 Contents

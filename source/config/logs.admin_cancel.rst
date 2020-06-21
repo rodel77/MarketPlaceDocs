@@ -1,8 +1,8 @@
-===================
-searches.categories
-===================
+=================
+logs.admin_cancel
+=================
 
-No help available
+Log whenever an admin cancels and item?
 
 Type: Boolean (true or false)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

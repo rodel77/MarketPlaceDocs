@@ -1,6 +1,6 @@
-===================
-searches.categories
-===================
+======================
+inspect.remove_enabled
+======================
 
 No help available
 

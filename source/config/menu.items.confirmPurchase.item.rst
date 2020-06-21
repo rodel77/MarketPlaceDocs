@@ -6,5 +6,5 @@ No help available
 
 Type: String
 ~~~~~~~~~~~~
-Default: **WOOL**
-~~~~~~~~~~~~~~~~~
+Default: **LIME_STAINED_GLASS_PANE**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

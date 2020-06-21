@@ -6,5 +6,5 @@ No help available
 
 Type: String
 ~~~~~~~~~~~~
-Default: **STAINED_GLASS_PANE**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Default: **GRAY_STAINED_GLASS_PANE**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

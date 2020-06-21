@@ -1,10 +1,10 @@
 ==========================
-command.help.argumentsHelp
+command.purge.autoComplete
 ==========================
 
 No help available
 
 Type: String
 ~~~~~~~~~~~~
-Default: **[command]**
-~~~~~~~~~~~~~~~~~~~~~~
+Default: **purge**
+~~~~~~~~~~~~~~~~~~

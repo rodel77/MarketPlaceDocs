@@ -1,6 +1,6 @@
-===================
-searches.categories
-===================
+================================
+commands.deepAutoCompleteEnabled
+================================
 
 No help available
 

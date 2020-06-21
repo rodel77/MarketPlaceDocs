@@ -1,6 +1,6 @@
-===================
-searches.categories
-===================
+============================
+commands.autoCompleteEnabled
+============================
 
 No help available
 

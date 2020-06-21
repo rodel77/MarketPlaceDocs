@@ -1,10 +1,10 @@
 =========================
-menu.items.timeOrder.item
+command.help.autoComplete
 =========================
 
 No help available
 
 Type: String
 ~~~~~~~~~~~~
-Default: **CLOCK**
-~~~~~~~~~~~~~~~~~~
+Default: **help**
+~~~~~~~~~~~~~~~~~
