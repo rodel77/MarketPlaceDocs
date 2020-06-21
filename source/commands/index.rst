@@ -23,7 +23,7 @@ Information about the commands
 +-----------------------------------------------------------+--------------------------+------------------+--------------------------------------------------------------------------+
 | /mp select <parameters>                                   | market.select            | Admins           | Get a plain chat message of specific listings (Same parameters as purge).|
 +-----------------------------------------------------------+--------------------------+------------------+--------------------------------------------------------------------------+
-| /mp help                                                  | (No permission required) | Users            | Open the help menu.                                                      |
+| /mp help [command]                                        | (No permission required) | Users            | Open the help menu or get help from a specific command.                  |
 +-----------------------------------------------------------+--------------------------+------------------+--------------------------------------------------------------------------+
 | /mp cancel/borrow <options>                               | market.cancel            | Admins           | Cancel items, for now just --all enabled (Experimental/Migration).       |
 +-----------------------------------------------------------+--------------------------+------------------+--------------------------------------------------------------------------+
