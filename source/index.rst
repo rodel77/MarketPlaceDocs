@@ -48,3 +48,4 @@ Misc
 ..    misc/webhooks
 ..    misc/limits
 ..    misc/nbt_migration
+..	  misc/placeholders

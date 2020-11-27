@@ -2,6 +2,26 @@
 Limits
 ======
 
+Command
+-------
+
++-------------------------------------------+--------------------------+---------------------------------------------------------+
+| Command                                   | Permission               | Use                                                     |
++-------------------------------------------+--------------------------+---------------------------------------------------------+
+| /mp limits                                | market.limits.see        | Let players see their limits                            |
++-------------------------------------------+--------------------------+---------------------------------------------------------+
+| /mp limits get <uuid|name>                | market.limits.see_others | Let players (moderators) see other people limits        |
++-------------------------------------------+--------------------------+---------------------------------------------------------+
+| /mp limits set <uuid|name> <amount>       | market.limits.edit       | Set the limits of a player (only database limits)       |
++-------------------------------------------+--------------------------+---------------------------------------------------------+
+| /mp limits increment <uuid|name> <amount> | market.limits.edit       | Increment the limits of a player (only database limits) |
++-------------------------------------------+--------------------------+---------------------------------------------------------+
+| /mp limits decrement <uuid|name> <amount> | market.limits.edit       | Decrement the limits of a player (only database limits) |
++-------------------------------------------+--------------------------+---------------------------------------------------------+
+
+Systems
+-------
+
 In marketplace you can add limit of listings, there are 2 system that you can use
 
 Permission-based limits
